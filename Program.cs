@@ -1,6 +1,13 @@
-﻿static void Main(string[] args)
+﻿using System;
+
+namespace DataStructures
 {
-    TVShow show = new TVShow("Breaking Bad", 5);
-    Console.WriteLine(show);
-    Console.ReadKey();
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello from Deepesh!");
+            Console.ReadKey();
+        }
+    }
 }
